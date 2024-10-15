@@ -9,7 +9,7 @@ header {
     justify-content: center;
 }
 
-ul {
+.nav-lista{
     display: flex;
     list-style: none;
     color: black;
@@ -17,4 +17,10 @@ ul {
     text-transform: uppercase;
     justify-content: center;
     gap: 28px;
+}
+
+.nav-item:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
 }
